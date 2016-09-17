@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bottomBarItemOne"
+        android:icon="@mipmap/ic_social"
+        android:title="Recents" />
+    <item
+        android:id="@+id/bottomBarItemTwo"
+        android:icon="@mipmap/ic_venue"
+        android:title="Recents" />
+    <item
+        android:id="@+id/bottomBarItemThree"
+        android:icon="@mipmap/ic_connect"
+        android:title="Recents" />
+    <item
+        android:id="@+id/bottomBarItemFour"
+        android:icon="@mipmap/ic_chat"
+        android:title="Recents" />
+    <item
+        android:id="@+id/bottomBarItemFive"
+        android:icon="@mipmap/ic_settings"
+        android:title="Recents" />
+</menu>
