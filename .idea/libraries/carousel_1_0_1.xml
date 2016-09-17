@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="carousel-1.0.1">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/fr.rolandl/carousel/1.0.1/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/fr.rolandl/carousel/1.0.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/fr.rolandl/carousel/1.0.1/703ff02f191da1bcccbc03295b25c67a3e36f64a/carousel-1.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

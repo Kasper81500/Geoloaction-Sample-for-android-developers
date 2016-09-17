@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:fitsSystemWindows="true"
+    tools:context="pf.paranoidfan.com.paranoidfan.GroupsActivity"
+    android:background="@color/colorWhite">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <android.support.design.widget.AppBarLayout android:layout_height="wrap_content"
+            android:layout_width="match_parent" android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar android:id="@+id/toolbar"
+                android:layout_width="match_parent" android:layout_height="?attr/actionBarSize"
+                android:background="@color/white" app:popupTheme="@style/AppTheme.PopupOverlay" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title_activity_contactlist"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorDarkGrey"
+                    android:layout_gravity="center"
+                    android:id="@+id/toolbar_title"/>
+                <ImageButton
+                    android:id="@+id/img_forward"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_gravity="end"
+                    android:onClick="backButtonHandler"
+                    android:background="@mipmap/ic_forward_grey"/>
+            </android.support.v7.widget.Toolbar>
+        </android.support.design.widget.AppBarLayout>
+
+        <ListView
+            android:id="@+id/list_friends"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>
+<!-- From: file:/E:/2015_work/MainTask/ParanoidAndroidBitBucket/app/src/main/res/layout/activity_contact_list.xml -->

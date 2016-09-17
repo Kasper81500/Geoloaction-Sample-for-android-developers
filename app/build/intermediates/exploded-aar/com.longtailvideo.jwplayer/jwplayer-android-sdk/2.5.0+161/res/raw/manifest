@@ -1,0 +1,18 @@
+# This file must contain an HTML file with a div named 'container' for the player to load
+https://ssl.p.jwpcdn.com/android/2.5.0+161/mobile_workarounds.js
+https://ssl.p.jwpcdn.com/player/v/7.4.4/jwplayer.js
+https://ssl.p.jwpcdn.com/android/2.5.0+161/html5_provider_mobile.js
+https://ssl.p.jwpcdn.com/android/2.5.0+161/jwplayer_container.html
+https://ssl.p.jwpcdn.com/player/v/7.4.4/polyfills.promise.js
+https://ssl.p.jwpcdn.com/player/v/7.4.4/vast.js
+https://ssl.p.jwpcdn.com/player/v/7.4.4/jw-icons.ttf
+# All CSS files will be copied to the /skins directory
+https://ssl.p.jwpcdn.com/player/v/7.4.4/skins/beelden.css
+https://ssl.p.jwpcdn.com/player/v/7.4.4/skins/bekle.css
+https://ssl.p.jwpcdn.com/player/v/7.4.4/skins/five.css
+https://ssl.p.jwpcdn.com/player/v/7.4.4/skins/glow.css
+https://ssl.p.jwpcdn.com/player/v/7.4.4/skins/roundster.css
+https://ssl.p.jwpcdn.com/player/v/7.4.4/skins/seven.css
+https://ssl.p.jwpcdn.com/player/v/7.4.4/skins/six.css
+https://ssl.p.jwpcdn.com/player/v/7.4.4/skins/stormtrooper.css
+https://ssl.p.jwpcdn.com/player/v/7.4.4/skins/vapor.css

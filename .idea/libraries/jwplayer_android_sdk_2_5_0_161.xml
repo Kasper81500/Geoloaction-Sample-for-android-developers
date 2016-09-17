@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="jwplayer-android-sdk-2.5.0+161">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.longtailvideo.jwplayer/jwplayer-android-sdk/2.5.0+161/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.longtailvideo.jwplayer/jwplayer-android-sdk/2.5.0+161/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

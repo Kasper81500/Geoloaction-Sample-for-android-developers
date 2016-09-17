@@ -1,0 +1,3 @@
+int[] styleable Carousel { 0x010100af, 0x01010112 }
+int styleable Carousel_android_animationDuration 1
+int styleable Carousel_android_gravity 0

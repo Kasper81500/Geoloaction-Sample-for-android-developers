@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\2015_work\MainTask\ParanoidAndroidBitBucket\app\build\intermediates\exploded-aar\info.hoang8f\android-segmented\1.0.6\jars\classes.jar"
+        jumboMode="false"
+        revision="24.0.0"
+        sha1="692a913dff3246e0cc5369c2508f5970ecfeca01">
+        <dex dex="E:\2015_work\MainTask\ParanoidAndroidBitBucket\app\build\intermediates\pre-dexed\debug\classes-4bc4e3d55df170a9364a831f8a0f6aa563e096d3.jar" />
+    </item>
+
+</items>

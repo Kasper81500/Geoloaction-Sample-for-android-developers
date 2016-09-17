@@ -1,0 +1,92 @@
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:fitsSystemWindows="true"
+    tools:context="pf.paranoidfan.com.paranoidfan.PhoneConfirmActivity"
+    android:background="@color/colorSignin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.design.widget.AppBarLayout android:layout_height="wrap_content"
+            android:layout_width="match_parent" android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar android:id="@+id/toolbar"
+                android:layout_width="match_parent" android:layout_height="?attr/actionBarSize"
+                android:background="@color/colorSignin" app:popupTheme="@style/AppTheme.PopupOverlay" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/title_activity_phone_confirm"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:layout_gravity="center"
+                    android:id="@+id/toolbar_title" />
+            </android.support.v7.widget.Toolbar>
+
+
+        </android.support.design.widget.AppBarLayout>
+
+        <ProgressBar android:id="@+id/login_progress" style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp" android:visibility="gone" />
+
+        <!--<ScrollView android:id="@+id/login_form" android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+        <LinearLayout android:id="@+id/email_login_form" android:layout_width="match_parent"
+            android:layout_height="match_parent" android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:text="@string/phone_confirm_description"
+                android:layout_marginTop="20dp"
+                android:textColor="@android:color/white"
+                android:textSize="14sp"/>
+
+            <android.support.design.widget.TextInputLayout android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin" android:theme="@style/CommonTextLabel">
+
+                <AutoCompleteTextView android:id="@+id/confirmcode" android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:hint="@string/phone_confirm_code"
+                    android:inputType="textPhonetic" android:maxLines="1"
+                    android:singleLine="true" android:textColor="@android:color/white"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="20dp"
+                android:text="@string/phone_confirm_warning"
+                android:textColor="@android:color/white"
+                android:textSize="12sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+            <Button android:id="@+id/btn_verify" style="?android:textAppearanceSmall"
+                android:layout_width="match_parent" android:layout_height="50dp"
+                android:text="@string/action_confirm"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textColor="@android:color/white"
+                android:background="@color/colorSignup"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <!--</ScrollView>-->
+    <!--</LinearLayout>-->
+</android.support.design.widget.CoordinatorLayout><!-- From: file:/E:/2015_work/MainTask/ParanoidAndroidBitBucket/app/src/main/res/layout/activity_phoneconfirm.xml -->
